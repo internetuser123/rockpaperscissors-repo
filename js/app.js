@@ -29,12 +29,12 @@ function play(e) {
     /* console.log('computerGuess', computerOptions[computerGuess]) */
     const computerGuessString = computerOptions[computerGuess]
 
-    console.log('playerguess', playerGuess);
+  /*   console.log('playerguess', playerGuess);
     console.log('computerguess', computerGuessString);
-    console.log('-----');
+    console.log('-----'); */
     if (playerGuess === computerGuessString) {
         // do over
-        console.log("Draw")
+        /* console.log("Draw") */
         infoText.textContent = `Draw!`
     }
 
@@ -81,8 +81,8 @@ function play(e) {
         infoText.textContent = infoText.textContent = `Player chose: ${playerGuess} Computer chose: ${computerGuessString}`
         
     }
-    console.log('computerscore', computerScore)
-    console.log('playerscore', playerScore)
+    /* console.log('computerscore', computerScore)
+    console.log('playerscore', playerScore) */
     playerScoreBoard.textContent = `Player: ${playerScore}`
     computerScoreBoard.textContent = `Computer: ${computerScore}`
 }
