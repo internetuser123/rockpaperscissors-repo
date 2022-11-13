@@ -42,35 +42,35 @@ function play(e) {
         // computer wins
         
         computerScore++
-        infoText.textContent = `Player: ${playerGuess} Computer: ${computerGuessString}`
+        infoText.textContent = `Player chose: ${playerGuess} Computer chose: ${computerGuessString}`
     }
 
     if (playerGuess === 'rock' && computerGuessString === 'scissors') {
          
         // player wins
         playerScore++
-        infoText.textContent = `Player: ${playerGuess} Computer: ${computerGuessString}`
+        infoText.textContent = infoText.textContent = `Player chose: ${playerGuess} Computer chose: ${computerGuessString}`
     }
  
     if (playerGuess === 'paper' && computerGuessString === 'rock') {
          
         //player wins
         playerScore++
-        infoText.textContent = `Player: ${playerGuess} Computer: ${computerGuessString}`
+        infoText.textContent = infoText.textContent = `Player chose: ${playerGuess} Computer chose: ${computerGuessString}`
     }
 
     if (playerGuess === 'paper' && computerGuessString === 'scissors') {
          
         // computer wins
         computerScore++
-        infoText.textContent = `Player: ${playerGuess} Computer: ${computerGuessString}`
+        infoText.textContent = infoText.textContent = `Player chose: ${playerGuess} Computer chose: ${computerGuessString}`
     }
 
     if (playerGuess === 'scissors' && computerGuessString === 'rock') {
          
         // computer wins
         computerScore++
-        infoText.textContent = `Player: ${playerGuess} Computer: ${computerGuessString}`
+        infoText.textContent = infoText.textContent = `Player chose: ${playerGuess} Computer chose: ${computerGuessString}`
 
     }
 
@@ -78,7 +78,7 @@ function play(e) {
 
         // player wins
         playerScore++
-        infoText.textContent = `Player: ${playerGuess} Computer: ${computerGuessString}`
+        infoText.textContent = infoText.textContent = `Player chose: ${playerGuess} Computer chose: ${computerGuessString}`
         
     }
     console.log('computerscore', computerScore)
